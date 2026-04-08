@@ -1,29 +1,30 @@
 {
-  "name": "propz",
-  "displayName": "propz",
-  "description": "",
-  "version": "0.0.1",
-  "engines": {
-    "vscode": "^1.95.0"
-  },
-  "categories": [
-    "Themes"
-  ],
-  "contributes": {
-    "themes": [
-      {
-        "label": "propz",
-        "uiTheme": "vs-dark",
-        "path": "./themes/propz-color-theme.json"
-      }
-    ],
-    "iconThemes": [
-      {
-        "id": "propz-icon-theme",
-        "label": "Propz Icon Theme",
-        "path": "./icons/propz-icon-theme.json",
-        "_watch": true
-      }
-    ]
-  }
+	"name": "propz-vscode-theme",
+	"displayName": "propz One Dark",
+	"description": "",
+	"publisher": "propz",
+	"version": "0.0.1",
+	"engines": {
+		"vscode": "^1.95.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "propz",
+				"uiTheme": "vs-dark",
+				"path": "./themes/propz-color-theme.json"
+			}
+		],
+		"iconThemes": [
+			{
+				"id": "propz-icon-theme",
+				"label": "Propz Icon Theme",
+				"path": "./icons/propz-icon-theme.json",
+				"_watch": true
+			}
+		]
+	}
 }

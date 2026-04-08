@@ -7,10 +7,13 @@
 			"iconPath": "./images/file-default.svg"
 		},
 		"_file_audio": {
-			"iconPath": "./images/audio.svg"
+			"iconPath": "./images/file-audio.svg"
+		},
+		"_file_blade": {
+			"iconPath": "./images/file-blade.svg"
 		},
 		"_file_code": {
-			"iconPath": "./images/file-default.svg"
+			"iconPath": "./images/file-code.svg"
 		},
 		"_file_data": {
 			"iconPath": "./images/file-data-menlo.svg"
@@ -18,15 +21,28 @@
 		"_file_database": {
 			"iconPath": "./images/file-database.svg"
 		},
-		"_file_markup": {
-			"iconPath": "./images/code.svg"
+		"_file_default": {
+			"iconPath": "./images/file-default.svg"
+		},
+		"_file_deno": {
+			"iconPath": "./images/file-deno.svg"
 		},
 		"_file_doc": {
-			"iconPath": "./images/file-doc-1.svg"
+			"iconPath": "./images/file-doc.svg"
+		},
+		"_file_elixir": {
+			"iconPath": "./images/file-elixir.svg"
+		},
+		"_file_git": {
+			"iconPath": "./images/file-git.svg"
 		},
 		"_file_image": {
 			"iconPath": "./images/file-image.svg"
 		},
+		"_file_markup": {
+			"iconPath": "./images/file-markup.svg"
+		},
+		
 		"_file_font": {
 			"iconPath": "./images/file-font.svg"
 		},
@@ -36,14 +52,20 @@
 		"_file_pdf": {
 			"iconPath": "./images/file-pdf.svg"
 		},
+		"_file_react": {
+			"iconPath": "./images/file-react.svg"
+		},
 		"_file_shell": {
 			"iconPath": "./images/file-shell.svg"
 		},
 		"_file_spreadsheet": {
 			"iconPath": "./images/file-spreadsheet.svg"
 		},
+		"_file_svelte": {
+			"iconPath": "./images/file-svelte.svg"
+		},
 		"_file_video": {
-			"iconPath": "./images/video.svg"
+			"iconPath": "./images/file-video.svg"
 		},
 		"_file_zip": {
 			"iconPath": "./images/file-zip.svg"
@@ -56,71 +78,79 @@
 	"file": "_file_misc",
 	"rootFolder": "_root",
 	"languageIds": {
-		"abap": "_file_code",
+		"abap": "_file_default",
 		"bat": "_file_shell",
-		"clojure": "_file_code",
-		"coffeescript": "_file_code",
-		"c": "_file_code",
-		"cpp": "_file_code",
-		"csharp": "_file_code",
-		"css": "_file_code",
-		"cuda-cpp": "_file_code",
-		"pascal": "_file_code",
+		"clojure": "_file_default",
+		"coffeescript": "_file_default",
+		"c": "_file_default",
+		"cpp": "_file_default",
+		"csharp": "_file_default",
+		"css": "_file_default",
+		"cuda-cpp": "_file_default",
+		"pascal": "_file_default",
 		"diff": "_file",
 		"dockerfile": "_file",
 		"dockercompose": "_file",
-		"erlang": "_file_code",
-		"fsharp": "_file_code",
-		"go": "_file_code",
-		"groovy": "_file_code",
-		"haml": "_file_code",
-		"haskell": "_file_code",
+		"erlang": "_file_default",
+		"elixir": "_file_elixir",
+		"fsharp": "_file_default",
+		"go": "_file_default",
+		"groovy": "_file_default",
+		"haml": "_file_default",
+		"haskell": "_file_default",
 		"html": "_file_markup",
-		"ini": "_file_code",
-		"java": "_file_code",
+		"ini": "_file_default",
+		"java": "_file_default",
 		"javascript": "_file_code",
-		"javascriptreact": "_file_code",
+		"javascriptreact": "_file_react",
 		"json": "_file_data",
 		"jsonc": "_file_data",
-		"julia": "_file_code",
-		"latex": "_file_code",
-		"less": "_file_code",
-		"lua": "_file_code",
-		"makefile": "_file_code",
+		"julia": "_file_default",
+		"latex": "_file_default",
+		"less": "_file_default",
+		"lua": "_file_default",
+		"makefile": "_file_default",
 		"markdown": "_file_doc",
-		"objective-c": "_file_code",
-		"objective-cpp": "_file_code",
-		"ocaml": "_file_code",
-		"perl": "_file_code",
-		"perl6": "_file_code",
-		"php": "_file_code",
+		"objective-c": "_file_default",
+		"objective-cpp": "_file_default",
+		"ocaml": "_file_default",
+		"perl": "_file_default",
+		"perl6": "_file_default",
+		"php": "_file_default",
 		"plaintext": "_file_doc",
 		"powershell": "_file_shell",
-		"jade": "_file_code",
-		"pug": "_file_code",
-		"python": "_file_code",
-		"r": "_file_code",
-		"razor": "_file_code",
-		"ruby": "_file_code",
-		"rust": "_file_code",
-		"scss": "_file_code",
-		"sass": "_file_code",
-		"shaderlab": "_file_code",
+		"jade": "_file_default",
+		"pug": "_file_default",
+		"python": "_file_default",
+		"r": "_file_default",
+		"razor": "_file_default",
+		"ruby": "_file_default",
+		"rust": "_file_default",
+		"scss": "_file_default",
+		"sass": "_file_default",
+		"shaderlab": "_file_default",
 		"shellscript": "_file_shell",
-		"slim": "_file_code",
+		"slim": "_file_default",
 		"sql": "_file_database",
-		"stylus": "_file_code",
-		"svelte": "_file_code",
-		"swift": "_file_code",
+		"stylus": "_file_default",
+		"svelte": "_file_svelte",
+		"swift": "_file_default",
 		"typescript": "_file_code",
-		"typescriptreact": "_file_code",
-		"tex": "_file_code",
-		"vb": "_file_code",
-		"vue": "_file_code",
+		"typescriptreact": "_file_react",
+		"tex": "_file_default",
+		"vb": "_file_default",
+		"vue": "_file_default",
 		"vue-html": "_file_markup",
 		"xml": "_file_markup",
-		"xsl": "_file_code",
+		"xsl": "_file_default",
 		"yaml": "_file_markup"
+	},
+	"fileNames": {
+		".blade.php": "_file_blade",
+		".gitignore": "_file_git",
+		".vscodeignore": "_file_git",
+		"deno.json": "_file_deno",
+		"deno.lock": "_file_deno"
 	},
 	"fileExtensions": {
 		"gif": "_file_image",
